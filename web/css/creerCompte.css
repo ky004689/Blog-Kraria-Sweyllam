@@ -17,7 +17,7 @@ label{
 input[type=text]{
  padding:3px;
  border-radius:5px;
- width:200px;
+ width:250px;
  box-shadow:1px 1px 2px #C0C0C0 inset;
  
  }
@@ -25,7 +25,15 @@ input[type=text]{
  input[type=password]{
  padding:3px;
  border-radius:5px;
- width:200px;
+ width:250px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ 
+ }
+ 
+ input[type=file]{
+ padding:3px;
+ border-radius:5px;
+ width:250px;
  box-shadow:1px 1px 2px #C0C0C0 inset;
  
  }
@@ -38,7 +46,7 @@ input[type=button]{
  }
 
 fieldset {
-	width: 400px;
+	width: 500px;
 	padding: 5px;
 	
 }

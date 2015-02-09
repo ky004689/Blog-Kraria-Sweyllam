@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>Créer un compte</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/creerCompte"></script>
         <link rel="stylesheet" href="css/creerCompte.css">
     </head>
     <body>
@@ -36,9 +37,13 @@ and open the template in the editor.
         <label for="about">&Aacute; propos de toi :</label>
       <input id="about" name="about" type="text" placeholder="Description" required autofocus>
     </ul>
+    <ul>
+        <label for="photo">Photo :</label>
+      <input id="photo" name="photo" type="file" placeholder="Photo" required autofocus>
+    </ul>
   </fieldset>
         <p></p>
-        <input type="button" value="Cr&eacute;er">
+        <input type="button" value="Cr&eacute;er" onclick="creer()">
 </form>
   </section>
 </body>
