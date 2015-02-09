@@ -10,10 +10,22 @@ and open the template in the editor.
 
 .welcome{
 background-image: url('../img/background-blog.jpg');
-padding-left: 11em;
-padding-right: 20em;
 font-family:
 Georgia, "Times New Roman",
 Times, serif; 
 color: white;  
+}
+
+connection{
+    position: fixed;
+   top: 55%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -100px;
+}
+account{
+    top: 60%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -100px;
 }
