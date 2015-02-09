@@ -9,24 +9,23 @@ and open the template in the editor.
         <title>Connexion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/connexion.css">
+        <link rel="stylesheet" href="css/connexion.css" media="screen" type="text/css" />
     </head>
     <body>
   <section>
     <form id="myform">
-  <fieldset>
-    <legend>Se connecter</legend>
-    <ul>
-      <label for="user">Nom d'utilisateur :</label>
-      <input id="user" name="user" type="text" placeholder="Utilisateur" required autofocus>
-    </ul>
-    <ul>
-        <label for="mdp">Mot de passe :</label>
-        <input id="mdp" name="mdp" type="password" placeholder="Mot de passe" required autofocus>
-    </ul>
-  </fieldset>
-        <p></p>
-        <input type="button" value="valider">
+  <div class="wrap">
+		<div class="avatar">
+      <img src="http://img3.wikia.nocookie.net/__cb20121027052307/angrybirds/images/3/33/My_avatar.png">
+		</div>
+		<input type="text" placeholder="Nom d'Utilisateur" required>
+		<div class="bar">
+			<i></i>
+		</div>
+		<input type="password" placeholder="Mot de Passe" required>
+		
+		<button>Sign in</button>
+	</div>
 </form>
   </section>
 </body>
