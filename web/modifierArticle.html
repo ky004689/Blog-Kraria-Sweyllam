@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+ <head>
+        <title>Modifier article</title>
+        <link href="style.css"  rel='stylesheet'/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="header" class="modalbox">
+            <h1>Modifier l'article</h1>
+        </div>
+        
+        <div id="content">
+            <div id="list-article"></div>
+        </div>
+        
+        <div id="update-article" class="modalbox">
+            <h3>Modification d'un Article</h3>
+            <form method="post" id="formupdate-article" onsubmit="return false;">
+                <input type="hidden" id="id" name="id" />
+                <p>
+                    <label for="titre">Titre</label>
+                    <input type="text" id="titre" name="titre"/>
+                </p>
+                <p>
+                    <label for="content">Texte</label>
+                    <textarea id="content" name="content"></textarea>
+                </p>
+
+                <p class="alignright">
+                    <a href="#" id="update" class="button blue">Sauvegarder les modifications</a>
+                    
+                    <a href="#" id="reset" class="button gray">Annuler</a>
+                </p>
+            </form>
+            <div class="clearfix"></div>
+        </div>
+
+        <script src="creerArticle.js"></script>
+    </body>
+</html>

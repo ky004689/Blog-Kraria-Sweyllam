@@ -5,6 +5,9 @@
  */
 
 
-function creer(){
-    
-}
+jQuery(document).ready(function($){
+
+    function creer(){
+        
+    }
+});
